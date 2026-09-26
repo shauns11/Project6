@@ -385,7 +385,12 @@ gert::git_push(
   refspec = "refs/heads/main:refs/heads/main"
 )
 
+print(paste("Project6 finished at", format(Sys.time(),
+                                               "%Y-%m-%d %H:%M:%S")))
 
+##########.
+#FINISHED.
+##########.
 
 
 
