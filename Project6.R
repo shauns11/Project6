@@ -367,7 +367,23 @@ gert::git_push(
   refspec = "refs/heads/main:refs/heads/main"
 )
 
+#delete R file on desktop
+file_path <- "C:/Users/sscho/OneDrive/Desktop/Project6.R"
+  
+if (file.exists(file_path)) {
+  file.remove(file_path)
+  print("File deleted.")
+} else {
+  print("File not found.")
+}
 
+
+gert::git_add(files = "Project6.R")
+gert::git_commit("Add Project6.R")
+gert::git_push(
+  remote = "origin",
+  refspec = "refs/heads/main:refs/heads/main"
+)
 
 
 
