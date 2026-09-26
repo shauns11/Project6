@@ -251,8 +251,6 @@ git_push(
 )
 
 
-
-
 # =======================================================================
 # CREATE DEVELOPMENT BRANCH
 # =======================================================================
@@ -312,7 +310,7 @@ git_log()
 source_file <- "C:/Users/sscho/OneDrive/Desktop/Project6.R"
 
 # Local Git repository
-repo <- "C:/Git/Project6"
+repo <- "C:/Git/Projects/Project6"
 
 # Copy Project6.R into the Git repository
 file.copy(
